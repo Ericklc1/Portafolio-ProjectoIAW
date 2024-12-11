@@ -1,0 +1,94 @@
+/* Contenidor general */
+.contact-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 2rem;
+  background: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+
+/* Títol i descripció */
+.contact-container h2 {
+  font-size: 2rem;
+  color: #007acc;
+  margin-bottom: 1rem;
+}
+
+.contact-container p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+/* Formulari */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+textarea {
+  resize: none;
+  min-height: 100px;
+}
+
+.icon {
+  color: #007acc;
+  font-size: 1.2rem;
+}
+
+/* Botó d'enviament */
+.submit-button {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #005f99;
+  transform: scale(1.05);
+}
+
+.button-icon {
+  font-size: 1.2rem;
+}
+
+/* Responsivitat */
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 1.5rem;
+  }
+}
+
+  
