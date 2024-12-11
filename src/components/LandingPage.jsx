@@ -1,4 +1,5 @@
 import React from "react";
+import {Link } from 'react-router-dom'
 import "./Css/LandingPage.css";
 
 function LandingPage() {
@@ -18,8 +19,8 @@ function LandingPage() {
             entregando resultados de alta calidad.
           </p>
           <div className="buttons">
-            <a href="/projects" className="btn">Mirar mis proyectos</a>
-            <a href="/contact" className="btn secondary">Contactame</a>
+            <Link to="/projects" className="btn">Mirar mis proyectos</Link>
+            <Link to="/contact" className="btn secondary">Contactame</Link>
           </div>
         </div>
       </div>

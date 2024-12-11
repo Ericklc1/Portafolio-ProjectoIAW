@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {Link } from 'react-router-dom'
 import './Ecommerce.css'
 const productsData = [
   {
@@ -105,18 +106,18 @@ function App() {
           Free shipping this week for orders over 55€
         </div>
         <div className="header-social-container">
-          <a href="#" className="social-link">
+          <Link to="#" className="social-link">
             <i className="fa-brands fa-square-facebook"></i>
-          </a>
-          <a href="#" className="social-link">
+          </Link>
+          <Link to="#" className="social-link">
             <i className="fa-brands fa-square-twitter"></i>
-          </a>
-          <a href="#" className="social-link">
+          </Link>
+          <Link to="#" className="social-link">
             <i className="fa-brands fa-square-instagram"></i>
-          </a>
-          <a href="#" className="social-link">
+          </Link>
+          <Link to="#" className="social-link">
             <i className="fa-brands fa-linkedin"></i>
-          </a>
+          </Link>
         </div>
       </section>
 
@@ -185,11 +186,11 @@ function App() {
             <li>
               <h2 className="nav-title">Categories</h2>
             </li>
-            <li><a href="#">Fashion</a></li>
-            <li><a href="#">Electronic</a></li>
-            <li><a href="#">Cosmetic</a></li>
-            <li><a href="#">Health</a></li>
-            <li><a href="#">Watches</a></li>
+            <li><Link to="#">Fashion</Link></li>
+            <li><Link to="#">Electronic</Link></li>
+            <li><Link to="#">Cosmetic</Link></li>
+            <li><Link to="#">Health</Link></li>
+            <li><Link to="#">Watches</Link></li>
           </ul>
         </nav>
         <section className="footer-bottom">
