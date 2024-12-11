@@ -1,0 +1,20 @@
+[
+    {
+      "title": "Web Venta de Casas",
+      "description": "Una aplicación web para gestionar la venta de casas.",
+      "imageUrl": "../img/ProjectPage.png",
+      "link": "/casas-venta"
+    },
+    {
+      "title": "Plataforma E-commerce",
+      "description": "Una plataforma de comercio electrónico para comprar y vender productos.",
+      "imageUrl": "../img/Ecommerce.png",
+      "link": "/Ecommerce"
+    },
+    {
+      "title": "Web Viajes",
+      "description": "Una página web de viajes para dar información a los clientes sobre posibles destinos.",
+      "imageUrl": "../img/ViajesTienda.png",
+      "link": "/Viajestienda"
+    }
+  ]
